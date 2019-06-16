@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nodeapp
   labels:
-    app: nodeapp
+    app: nodeapp1
 spec:
   containers:
     - name: nodeapp
