@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   name: nodeapp
   labels:
-    app: nodeapp1
+    app: nodeapp
 spec:
   containers:
-    - name: nodeapp
+    - name: nodeapp1
       image: kammana/nodeapp:v1
       ports:
         - containerPort: 8080
